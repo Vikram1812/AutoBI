@@ -146,20 +146,9 @@ streamlit run app.py
 ```bash
 uvicorn main:app --reload --port 8080
 ```
-Interactive API documentation will be available at `http://localhost:8080/docs`.
 
 ---
 
-## Example Usage
-
-**Prompt:**
-> *"Identify the top 5 product categories by total sales volume, compute their average order values, and visualize the comparison using a bar chart."*
-
-**Pipeline Output:**
-1. **Supervisor** categorizes request as SQL + Visualization.
-2. **SQL Analyst** pulls table schemas, writes DuckDB SQL, verifies execution, and fetches tabular rows.
-3. **Data Analyst** computes summary metrics and flags top revenue drivers.
-4. **Visualizer** compiles an interactive Plotly bar chart rendered directly in the interface.
 
 ---
 
