@@ -84,7 +84,6 @@ autobi/
 │   ├── state.py            # LangGraph TypedDict state schema
 │   ├── graph.py            # Workflow nodes and conditional edges
 │   ├── agents/
-│   │   ├── __init__.py
 │   │   ├── supervisor.py   # Intent classification & routing
 │   │   ├── sql_analyst.py  # Text-to-SQL & syntax self-repair
 │   │   └── data_analyst.py # Descriptive statistics & summaries
